@@ -1,0 +1,31 @@
+Name: Shaon Bhuiyan 
+Student Number: 20342448
+User-id: s2bhuiya
+Assignment: A5
+
+The final executable was compiled on this machine: gl07
+
+How to invoke my program: 
+./rt <script> <thread number> <DOF samples>
+
+Set DOF_samples to 0 to prevent any Depth of Field effects. Set it higher for
+more quality. The recommended amount is 50.
+
+NOTE: If no DOF or thread_number is supplied, default are assumed. 
+thread_number default: 1
+DOF_samples: 0
+
+Objectives:
+[x] Create two new primitives
+[x] soft shadows
+[x] reflection and refraction
+[x] depth of field focus
+[x] texture mapping
+[x] bump mapping
+[x] multi-threading support
+[x] Area lights with spotlight effect
+[ ] photon mapping
+[ ] coffee table scene
+
+I was unable to get photon mapping working and did not have enough time to create
+the coffee table image.
